@@ -13,6 +13,8 @@ body {
  font-style: italic;
  text-align: center;
  color: antiquewhite;
+ margin-top: 29px;
+
 }
 
 .change {
@@ -26,16 +28,10 @@ Footer
 
 #meunome {
     text-align: center;
-    border: 1px solid red;
+    
 }
 
 
-#foto {
-    
-    margin-left: 300px;
-    display: inline-block;
-    
-}
 
 #apresentacao { 
     display: flex;
@@ -51,6 +47,7 @@ Footer
    border-radius:150px;
    padding: 15px;
    background-color: #0b573b;
+
 }
 
 ul li:nth-child(odd) {
@@ -69,9 +66,7 @@ header {
     justify-content: center;
     top: 0px;
     height: 40px;
-
-    
-    
+    z-index: 1;
 }
 
 header ul li {
@@ -79,8 +74,6 @@ header ul li {
     display: inline-block;
     padding: 5px;
     margin: 10px;
-    
-
 }
 
 header ul li a {
@@ -99,22 +92,27 @@ header ul li a:hover {
 }
 
 
-section, #me {
+ #me {
     background-color: rgb(0, 0, 0);
     margin-top: 70px;
     padding: 20px;
     height: 770px;
-    
-    
+    display: flex;
+    flex-direction: column;
+}
 
+#eu{
+    width: 300px;
+    align-self: center;
+    margin-top: 50px;
 }
 
 #logo {
-    float: right;
-    position: relative;
-    left: 140px;
-    bottom: 50px;
+    display: flex;
     width: 200px;
+    align-self: end;
+    margin-right: 250px;
+    
 }
 
 #container_me{
@@ -145,4 +143,48 @@ section, #me {
 
 #habilidades h1{
     margin-right: 100px;
+    height: 700px;
+}
+
+#descript p{
+    font-size: 25px;
+}
+
+#breve{
+    margin-bottom: 100px;
+}
+
+#blog{ 
+   margin-top: 40px;
+    height: 580px;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+ 
+}
+
+iframe {
+    margin-bottom: 200px;
+    width: 70%;
+    height: 80%;
+   position: relative;
+   bottom: 500px;
+   
+}
+
+#rodape{
+    clear: both;
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#nameDescription{
+    align-self: center;
+    margin-top: 100px;
+    color: wheat;
+
 }
