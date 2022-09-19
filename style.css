@@ -99,6 +99,7 @@ header ul li a:hover {
     height: 770px;
     display: flex;
     flex-direction: column;
+
 }
 
 #eu{
@@ -157,23 +158,23 @@ header ul li a:hover {
 #blog{ 
    margin-top: 40px;
     height: 580px;
-  text-align: center;
+  
   padding-top: 20px;
-  position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
  
 }
 
 iframe {
-    margin-bottom: 200px;
-    width: 70%;
-    height: 80%;
-   position: relative;
-   bottom: 500px;
    
+    width: 70%;
+   height: 1500px;
+  
 }
 
 #rodape{
-    clear: both;
+  
     margin-top: 200px;
     background-color: black;
     color: white;
@@ -187,4 +188,9 @@ iframe {
     margin-top: 100px;
     color: wheat;
 
+}
+
+footer a{
+    font-size: 50px;
+    padding: 10px;
 }
