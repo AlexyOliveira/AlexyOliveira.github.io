@@ -13,6 +13,7 @@ body {
   margin-top: 29px;
   display: flex;
   justify-content: center;
+  margin-top: 70px;
 }
 
 .change {
@@ -36,33 +37,35 @@ Footer #meunome {
 #eu {
   border-radius: 150px;
   padding: 15px;
-  background-color: #0b573b;
+  background-color: rgb(31, 89, 26);
   width: 100%px;
   align-self: center;
-  margin-top: 50px;
+  margin-top: 5px;
 }
-
-ul li:nth-child(odd) {
+.navbar {
+  padding: 0;
 }
-
-/* new */
-
-header {
-  background-color: rgba(252, 252, 252, 0.7);
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  display: flex;
+.navbar-toggler{
+ width: 50%;
+ background-color: #0b573b;
+ margin: 3px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar > .container-fluid {
   justify-content: center;
-  top: 0px;
-  height: 40px;
-  z-index: 1;
 }
-
+header {
+  background-color: #dfeee9f1;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
 header ul li {
   list-style: none;
   display: inline-block;
-  padding: 5px;
+  padding: px;
   margin: 10px;
   flex-wrap: nowrap;
 }
@@ -73,7 +76,6 @@ header ul li a {
   padding: 4px;
   color: black;
   border-radius: 5px;
-  
 }
 
 header ul li a:hover {
@@ -84,7 +86,7 @@ header ul li a:hover {
 
 #me {
   background-color: rgb(0, 0, 0);
-  margin-top: 70px;
+  margin-top: 0px;
   padding: 20px;
   height: 770px;
   display: flex;
@@ -124,8 +126,9 @@ header ul li a:hover {
   align-items: center;
   justify-content: center;
   height: 770px;
-  padding: 0px 20px;
+  padding: 0px 40px;
   color: rgb(229, 230, 228);
+  z-index: 1;
 }
 
 #listaHabilidades {
@@ -178,5 +181,9 @@ iframe {
 footer a {
   font-size: 50px;
   padding: 10px;
+}
+
+.container-sm {
+  max-width: 100%;
 }
 
