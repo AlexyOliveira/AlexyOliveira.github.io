@@ -1,0 +1,21 @@
+.stacks-container {
+  height: 100vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 90px;
+  background: black;
+}
+
+.stacks-container img {
+  height: 85px;
+  box-shadow: 2px 2px 10px rgb(235, 224, 13);
+  margin: 15px;
+}
+
+@media (max-width: 767.98px) {
+    .stacks-container img {
+        height: 45px;
+      }
+}
