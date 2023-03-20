@@ -7,19 +7,23 @@ function Description() {
         <h1>Breve descrição sobre mim..</h1>
         <p>
           <span className="change">Brasileiro</span>, nascido no município de
-          Içara-SC em 1992. Aos 5 anos vim para{" "}
+          Içara-SC. Aos 5 anos vim para{" "}
           <span className="change">
-            Tramandaí (uma cidade litorania do Rio Grande do Sul)
+            Tramandaí (uma cidade litorânia do Rio Grande do Sul)
           </span>
-          . Em 2020 com foco em crescimento pessoal e familiar comecei a me
-          interessar pelo desenvolvimento web, com 6 meses de pratica em
-          html/css/bootstrap, resolvi que precisava de um apoio mais{" "}
-          <strong>profissional</strong>, então em junho de 2022 ingressei na{" "}
+          , sempre tive uma curiosidade e uma admiração mais apurada por
+          tecnologia. . Resolvi entrar de cabeça decidido a virar a chave na
+          minha vida.. Em 2021 Após 6 meses de estudos por conta própria
+          consegui uma boa base em html/css/bootstrap/Js. Hoje 05/08/2022 começo
+          Desenvolvimento Web na{" "}
           <a target="_blank" href="https://www.betrybe.com/">
-            <strong>Trybe</strong>{" "}
+            <strong>Trybe.</strong>{" "}
           </a>
-          uma escola que te ensina a trabalhar e crescer nessa área. Em 2023
-          pretendo estar formado e trabalhando.
+          A Trybe é uma escola de tecnologia que tem comprometimento genuíno com
+          o sucesso proﬁssional das pessoas estudantes, onde desenvolvemos as
+          tecnologias que estão mais em alta no mercado, com vários projetos,
+          sozinho ou em grupo. Onde também aprendemos metodologias ágeis e as
+          tão importantes soft skills”. . 🚀🚀.
         </p>
       </div>
     </div>
