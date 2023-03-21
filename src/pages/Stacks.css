@@ -15,7 +15,10 @@
 }
 
 @media (max-width: 767.98px) {
-    .stacks-container img {
-        height: 45px;
-      }
+  .stacks-container img {
+    height: 45px;
+  }
+  .stacks-container {
+    padding: 50px;
+  }
 }
