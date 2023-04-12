@@ -6,6 +6,7 @@ import Description from "./pages/Description";
 import Stacks from "./pages/Stacks";
 import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Me />
       <Description />
       <Stacks />
+      <Projects />
       <Blog />
       <Footer />
     </div>
