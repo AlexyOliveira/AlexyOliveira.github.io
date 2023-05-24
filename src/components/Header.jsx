@@ -16,9 +16,9 @@ function Header() {
               <Nav.Link href="#me">Eu</Nav.Link>
               <Nav.Link href="#about">Sobre</Nav.Link>
               <Nav.Link href="#stacks">Tech Stacks</Nav.Link>
+              <Nav.Link href="#projects">Projetos</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
               <Nav.Link href="#footer">Contato</Nav.Link>
-              <Nav.Link href="#projects">Projetos</Nav.Link>
               {/* <NavDropdown title="Projetos" id="collasible-nav-dropdown">
                 <NavDropdown.Item
                   target="_blank"

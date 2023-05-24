@@ -5,6 +5,7 @@ import "./Projects.css";
 import recippImg from "../images/recipes-app.png";
 import primeTunesImg from "../images/prime-tunes.png";
 import trybeWallet from "../images/wallet.png";
+import onlineStore from "../images/online-store.jpg";
 
 export default function Projects() {
   return (
@@ -56,11 +57,32 @@ export default function Projects() {
           </Card.Body>
         </Card>
         <Card className="cardStyle" style={{ width: "15rem" }}>
+          <Card.Img variant="top" src={onlineStore} />
+          <Card.Body>
+            <Card.Title>Online Store</Card.Title>
+            <Card.Text>
+            Uma loja com milhares de produtos e suas categorias.
+             Tudo que você precisa para efetuar a compra de um bom produto, desde a escolha ao pagamento.
+            </Card.Text>
+            <Button target="_blank" href="https://online-store-smoky-one.vercel.app/">
+              WebSite
+            </Button>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/AlexyOliveira/online-store"
+              className="btn btn-dark m-1"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="cardStyle" style={{ width: "15rem" }}>
           <Card.Img variant="top" src={trybeWallet} />
           <Card.Body>
             <Card.Title>Trybe Wallet</Card.Title>
             <Card.Text>
-              Nesse projeto você tem uma carteira de controle de gastos com
+              Nessa aplicação você tem uma carteira de controle de gastos com
               conversor de moedas podendo adicionar remover, vizualizar
               tabela...
               <br />
