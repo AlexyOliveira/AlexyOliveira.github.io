@@ -31,6 +31,18 @@ function Stacks() {
         src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
         alt="git"
       />
+      <img
+        src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+        alt="type script"
+      />
+      <img
+        src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"
+        alt="mysql"
+      />
+      <img
+        src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+        alt="node js"
+      />
     </div>
   );
 }
