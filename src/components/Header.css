@@ -4,3 +4,60 @@
   width: 100%;
   z-index: 1;
 }
+.navbar a {
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--main-color);
+  transform: scale(1.2);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.square {
+  animation: rotate 10s linear infinite;
+  height: 35px;
+  margin-left: 20px;
+  width: 35px;
+}
+
+.square img {
+  width: 100%;
+}
+
+.header-nav {
+
+  background-color: black;
+}
+
+.first-name {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.second-name {
+  color: rgb(2, 89, 160);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.container-name {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  padding-left: 20px;
+}
