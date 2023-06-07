@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: "Poppins", "sans-serif";
 }
 
 :root {
@@ -32,6 +32,9 @@ body {
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {
@@ -44,12 +47,6 @@ section {
 
 .about-img img {
   width: 35vw;
-}
-
-.heading {
-  text-align: center;
-  margin-right: 20.2rem;
-  font-size: 4.5rem;
 }
 
 .about-content h2 {
@@ -140,54 +137,6 @@ section {
   font-size: 40px;
 }
 
-.contact-box {
-  border: 1px solid white;
-  width: 30%;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.contact-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 150px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 2rem 9%;
-  background: var(--second-bg-color);
-}
-
-.footer-text p {
-  font-size: 1.6rem;
-}
-
-.footer-iconTop a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: .8rem;
-  background: var(--second-bg-color);
-  border-radius: .8rem;
-}
-
-.footer-icon {
-  font-size: 2.4rem;
-  color: var(--text-color);
-}
-
-.footer-icon:hover {
-  color: var(--main-color);
-}
-
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -217,13 +166,13 @@ section {
     width: 100%;
     padding: 1rem 3%;
     background: var(--bg-color);
-    border-top: .1rem solid var(--second-bg-color);
-    box-shadow: 0 .5rem 1rem var(--second-bg-color);
+    border-top: 0.1rem solid var(--second-bg-color);
+    box-shadow: 0 0.5rem 1rem var(--second-bg-color);
   }
 
   .navbar a {
     font-size: 1.5rem;
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .first-name {
@@ -294,28 +243,6 @@ section {
     font-size: 25px;
   }
 
-  .contact {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact .heading {
-    font-size: 30px;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    margin: 100px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-box {
-    margin: 40px;
-    width: 300px;
-    display: flex;
-  }
-
   .footer {
     flex-direction: column;
   }
@@ -339,6 +266,5 @@ section {
   .footer-icon {
     font-size: 30px;
     margin-right: 30px;
-
   }
 }

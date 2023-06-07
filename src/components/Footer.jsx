@@ -1,19 +1,25 @@
-import { AiOutlineHome } from 'react-icons/ai';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import "./Footer.css";
 
-export default function Footer () {
+function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-text">
-        <p>Copyright &copy; 2023 by Miguel Raatz | Todos os Direitos Reservados.</p>
-      </div>
-
-      <div className="footer-iconTop">
-        <a className="footer-icon" href="#home"><AiOutlineHome /></a>
-        <a className="footer-icon" href="https://www.linkedin.com/in/miguelraatz/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-        <a className="footer-icon" href="https://github.com/miguelraatz" target="_blank" rel="noreferrer"><FaGithub /></a>
-        <a className="footer-icon" href="https://www.instagram.com/miguelraatz/" target="_blank" rel="noreferrer"><FaInstagram /></a>
-      </div>
-    </footer>
-  )
+    <div className="footer" id="footer">
+      <footer>
+        <div>&copy; Alexandre Oliveira - 2023</div>
+        <a href="https://www.instagram.com/ale_oliverr/" target="_blank">
+          <i className="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alexandre-oliveira-devweb/"
+          target="_blank"
+        >
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/AlexyOliveira" target="_blank">
+          <i className="fa-brands fa-github"></i>
+        </a>
+      </footer>
+    </div>
+  );
 }
+
+export default Footer;

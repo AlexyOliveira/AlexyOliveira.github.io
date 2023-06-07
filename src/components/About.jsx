@@ -1,18 +1,37 @@
-import myPicture from '../images/foto.png'
+import myPicture from "../images/foto.png";
+import "./About.css";
 
-export default function About () {
+export default function About() {
   return (
     <section className="about" id="about">
-      {/* <div className="about-img">
-        <img src={myPicture} alt="my-picture" className="my-picture"/>
-      </div> */}
+      <div className="about-img">
+        <img src={myPicture} alt="my-picture" className="my-picture" />
+      </div>
 
       <div className="about-content">
-        <h2 className="heading">Sobre <span>Mim</span></h2>
+        <h2 className="heading">
+          Sobre <span>Mim</span>
+        </h2>
         <h3>Desenvolvedor Web Full-Stack</h3>
-        <p>Olá! Meu nome é Miguel e sou um desenvolvedor web full stack com paixão por tecnologia e inovação. Com 30 anos de idade, tenho experiência em algumas linguagens e ferramentas de programação, incluindo JavaScript, TypeScript, Python, HTML, CSS, React, Jest, RTL, Docker, SQL, Node.js.
-        Como estudante dedicado, estou sempre buscando aprender novas habilidades e me manter atualizado sobre as últimas tendências em tecnologia. Tenho grande interesse em criar aplicações web intuitivas e elegantes que tornam a vida das pessoas mais fácil e mais agradável.
-        Se você estiver procurando por um desenvolvedor web full stack altamente motivado e dedicado, por favor, sinta-se à vontade para me contatar. Eu adoraria discutir como podemos trabalhar juntos em um projeto emocionante.</p>
+        <p>
+          <span className="change">Brasileiro</span>, nascido no município de
+          Içara-SC, aos 5 anos mudei-me{" "}
+          <span className="change">
+            Tramandaí, uma cidade litorânia do Rio Grande do Sul.
+          </span>{" "}
+          Em 2021, após 6 meses de estudos por conta própria, adquiri uma boa
+          base em HTML/CSS/Bootstrap/JS. Hoje, em 05/08/2022, estou começando o
+          curso de Desenvolvimento Web na{" "}
+          <a target="_blank" href="https://www.betrybe.com/">
+            <strong>Trybe.</strong>{" "}
+          </a>
+          A Trybe é uma escola de tecnologia que está genuinamente comprometida
+          com o sucesso profissional de seus estudantes. Lá, desenvolvemos as
+          tecnologias mais atualizadas do mercado, participando de vários
+          projetos, tanto individualmente como em grupo. Além disso, aprendemos
+          metodologias ágeis e as habilidades interpessoais tão importantes..
+          🚀🚀.
+        </p>
       </div>
     </section>
   );

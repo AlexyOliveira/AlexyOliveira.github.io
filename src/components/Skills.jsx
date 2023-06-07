@@ -1,4 +1,4 @@
-import { } from 'react-icons/di'
+import {} from "react-icons/di";
 import {
   SiJavascript,
   SiHtml5,
@@ -11,12 +11,17 @@ import {
   SiSequelize,
   SiTypescript,
   SiPython,
-} from 'react-icons/si'
+  SiGit,
+  SiBootstrap,
+} from "react-icons/si";
+import "./Skills.css";
 
-export default function Skills () {
+export default function Skills() {
   return (
     <section className="skills" id="skills">
-      <h2 className="heading">Habili<span>dades</span></h2>
+      <h2 className="heading">
+        Habili<span>dades</span>
+      </h2>
       <div className="skills-content">
         <SiJavascript className="skill-icon"></SiJavascript>
         <SiHtml5 className="skill-icon" />
@@ -25,11 +30,13 @@ export default function Skills () {
         <SiNodedotjs className="skill-icon" />
         <SiMysql className="skill-icon" />
         <SiExpress className="skill-icon" />
-        <SiDocker className="skill-icon" />
+        <SiGit className="skill-icon" />
         <SiSequelize className="skill-icon" />
         <SiTypescript className="skill-icon" />
+        <SiTypescript className="skill-icon" />
+        <SiBootstrap className="skill-icon" />
         <SiPython className="skill-icon" />
       </div>
     </section>
-  )
+  );
 }
