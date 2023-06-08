@@ -4,18 +4,18 @@ import "./About.css";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-img">
+      {/* <div className="about-img">
         <img src={myPicture} alt="my-picture" className="my-picture" />
-      </div>
+      </div> */}
 
       <div className="about-content">
         <h2 className="heading">
-          Sobre <span>Mim</span>
+        <span style={{color: "white"}}>Sobre</span><span>Mim</span>
         </h2>
-        <h3>Desenvolvedor Web Full-Stack</h3>
+        <h3><span>Desenvolvedor Web Full-Stack</span></h3>
         <p>
           <span className="change">Brasileiro</span>, nascido no município de
-          Içara-SC, aos 5 anos mudei-me{" "}
+          Içara-SC, aos 5 anos mudei-me para{" "}
           <span className="change">
             Tramandaí, uma cidade litorânia do Rio Grande do Sul.
           </span>{" "}

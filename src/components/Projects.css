@@ -1,0 +1,43 @@
+
+  .projects-container {
+    background: var(--second-bg-color);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 1s;
+  }
+  
+  .cardStyle {
+    transition: 1s;
+    margin: 20px;
+    width: 25rem;
+    color: black;
+    font-size: 15px;
+  }
+
+  .cardStyle:hover {
+    width: 30rem;
+    
+  }
+
+  .heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 4.5rem;
+    color: black;
+  }
+  
+  @media (max-width: 767.98px) {
+    .projects-container {
+      padding: 10px;
+    }
+  }

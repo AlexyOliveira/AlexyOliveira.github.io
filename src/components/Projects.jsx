@@ -1,147 +1,137 @@
-import recipes from "../images/recipes-app.png";
-import trivia from "../images/trivia.png";
-import trybewallet from "../images/trybewallet.png";
-import nodeExpress from "../images/node-express.png";
-
-import {
-  SiJavascript,
-  SiCss3,
-  SiReact,
-  SiNodedotjs,
-  SiMysql,
-  SiExpress,
-  SiDocker,
-  SiSequelize,
-} from "react-icons/si";
+import recippImg from "../images/recipes-app.png";
+import primeTunesImg from "../images/prime-tunes.png";
+import trybeWallet from "../images/wallet.png";
+import onlineStore from "../images/online-store.jpg";
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import "./Projects.css";
 
 export default function Projects() {
   return (
-    <section className="portfolio" id="projects">
+    <section className="projects-container" id="projects">
       <h2 className="heading">
-        Ultimos <span>Projetos</span>
+        <span style={{ color: "white" }}>Últimos</span> <span>Projetos</span>
       </h2>
 
       <div className="portfolio-container">
-        <div className="portfolio-box">
-          <h4>
-            Recipes <span>App</span>
-          </h4>
-          <img className="img-project" src={recipes} alt="imagem-app-recipe" />
-          <div className="skills-project">
-            <SiJavascript className="project-icon" />
-            <SiCss3 className="project-icon" />
-            <SiReact className="project-icon" />
-          </div>
-          <div className="buttons-projects">
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/miguelraatz/react-contextApi-recipes-app"
-            >
-              Repositório
-            </a>
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://recipes-app-two-kappa.vercel.app/"
-            >
-              Deploy
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-box">
-          <h4>
-            Trybe <span>Wallet</span>
-          </h4>
-          <img
-            className="img-project"
-            src={trybewallet}
-            alt="imagem-app-recipe"
-          />
-          <div className="skills-project">
-            <SiJavascript className="project-icon" />
-            <SiCss3 className="project-icon" />
-            <SiReact className="project-icon" />
-          </div>
-          <div className="buttons-projects">
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/miguelraatz/react-redux-trybeWallet"
-            >
-              Repositório
-            </a>
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://react-redux-trybe-wallet.vercel.app/"
-            >
-              Deploy
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-box">
-          <h4>
-            Triv<span>ia</span>
-          </h4>
-          <img className="img-project" src={trivia} alt="imagem-app-recipe" />
-          <div className="skills-project">
-            <SiJavascript className="project-icon" />
-            <SiCss3 className="project-icon" />
-            <SiReact className="project-icon" />
-          </div>
-          <div className="buttons-projects">
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/miguelraatz/react-redux-trivia"
-            >
-              Repositório
-            </a>
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://game-trivia-rust.vercel.app/"
-            >
-              Deploy
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-box">
-          <h4>
-            Blogs <span>API</span>
-          </h4>
-          <img
-            className="img-project"
-            src={nodeExpress}
-            alt="imagem-app-recipe"
-          />
-          <div className="skills-project">
-            <SiNodedotjs className="project-icon" />
-            <SiMysql className="project-icon" />
-            <SiExpress className="project-icon" />
-            <SiDocker className="project-icon" />
-            <SiSequelize className="project-icon" />
-          </div>
-          <div className="buttons-projects">
-            <a
-              className="btn-download"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/miguelraatz/react-redux-trivia"
-            >
-              Repositório
-            </a>
-          </div>
+        <div className="cards">
+          <Card className="cardStyle">
+            <Card.Img variant="top" src={primeTunesImg} />
+            <Card.Body>
+              <Card.Title>
+                <h4 style={{ color: "rgb(2, 89, 160)" }}>Prime Tunes</h4>
+              </Card.Title>
+              <Card.Text>
+                Uma aplicação capaz de reproduzir músicas das mais variadas
+                bandas e artistas, criar uma lista de músicas favoritas e editar
+                o perfil da pessoa usuária logada.
+              </Card.Text>
+              <Button
+                className="btn-lg"
+                target="_blank"
+                href="https://prime-tunes.vercel.app/"
+              >
+                Deploy
+              </Button>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/AlexyOliveira/prime-tunes/tree/main"
+                className="btn btn-lg btn-dark m-1"
+              >
+                GitHub
+              </a>
+            </Card.Body>
+          </Card>
+          <Card className="cardStyle">
+            <Card.Img variant="top" src={recippImg} />
+            <Card.Body>
+              <Card.Title>
+                <h4 style={{ color: "rgb(2, 89, 160)" }}>Recipes App</h4>
+              </Card.Title>
+              <Card.Text>
+                Nele é possível: ver, buscar, filtrar, favoritar e acompanhar o
+                progresso de preparação de receitas de comidas e bebidas!
+                <br />
+                <br />
+              </Card.Text>
+              <Button
+                className="btn-lg"
+                target="_blank"
+                href="https://recipes-app-one.vercel.app/"
+              >
+                Deploy
+              </Button>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/AlexyOliveira/recipes-app/tree/main"
+                className="btn btn-lg btn-dark m-1"
+              >
+                GitHub
+              </a>
+            </Card.Body>
+          </Card>
+          <Card className="cardStyle">
+            <Card.Img variant="top" src={onlineStore} />
+            <Card.Body>
+              <Card.Title>
+                <h4 style={{ color: "rgb(2, 89, 160)" }}>Online Store</h4>
+              </Card.Title>
+              <Card.Text>
+                Uma loja com milhares de produtos e suas categorias. Tudo que
+                você precisa para efetuar a compra de um bom produto, desde a
+                escolha ao pagamento.
+              </Card.Text>
+              <Button
+                className="btn-lg"
+                target="_blank"
+                href="https://online-store-smoky-one.vercel.app/"
+              >
+                Deploy
+              </Button>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/AlexyOliveira/online-store"
+                className="btn btn-lg btn-dark m-1"
+              >
+                GitHub
+              </a>
+            </Card.Body>
+          </Card>
+          <Card className="cardStyle">
+            <Card.Img variant="top" src={trybeWallet} />
+            <Card.Body>
+              <Card.Title>
+                {" "}
+                <h4 style={{ color: "rgb(2, 89, 160)" }}>Trybe Wallet</h4>{" "}
+              </Card.Title>
+              <Card.Text>
+                Nessa aplicação você tem uma carteira de controle de gastos com
+                conversor de moedas podendo adicionar remover, vizualizar
+                tabela...
+                <br />
+                <br />
+              </Card.Text>
+              <Button
+                target="_blank"
+                href="https://trybewallet-navy-gamma.vercel.app/"
+                className="btn-lg"
+              >
+                Deploy
+              </Button>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/AlexyOliveira/trybewallet/tree/main"
+                className="btn btn-lg btn-dark m-1"
+              >
+                GitHub
+              </a>
+            </Card.Body>
+          </Card>
         </div>
       </div>
     </section>

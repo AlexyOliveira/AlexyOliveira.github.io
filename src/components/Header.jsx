@@ -21,9 +21,6 @@ export default function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#me" className="laaa">
-                Eu
-              </Nav.Link>
               <Nav.Link href="#about">Sobre</Nav.Link>
               <Nav.Link href="#skills">Tech Stacks</Nav.Link>
               <Nav.Link href="#projects">Projetos</Nav.Link>

@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import picture from "../images/imagem.png";
-import Curriculum from "../images/Curriculum.pdf";
+// import Curriculum from "../images/Curriculum.pdf";
 import "./Home.css";
 
 export default function Home() {
@@ -27,9 +27,9 @@ export default function Home() {
   return (
     <section className="home" id="home">
       <div className="home-content">
-        <h3>Olá, eu sou</h3>
+        <h3 style={{color: "black"}}>Olá, eu sou</h3>
         <h1>Alexandre Oliveira</h1>
-        <h3>
+        <h3  style={{color: "black"}}>
           Sou <span className="dev-full">Desenvolvedor Web Full-Stack</span>
         </h3>
         <div className="social-media">
@@ -59,9 +59,12 @@ export default function Home() {
           </a>
         </div>
 
-        <a href={Curriculum} download type="button" className="btn-download">
-          Download CV
-        </a>
+        <p download type="button" className="btn-download">
+          Download CV (em breve)
+        </p>
+        {/* <a href={Curriculum} download type="button" className="btn-download">
+          Download CV (soon)
+        </a> */}
       </div>
 
       <div className="home-img">

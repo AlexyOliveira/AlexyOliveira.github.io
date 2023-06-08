@@ -33,7 +33,6 @@ export default function Skills() {
         <SiGit className="skill-icon" />
         <SiSequelize className="skill-icon" />
         <SiTypescript className="skill-icon" />
-        <SiTypescript className="skill-icon" />
         <SiBootstrap className="skill-icon" />
         <SiPython className="skill-icon" />
       </div>
