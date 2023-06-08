@@ -1,4 +1,4 @@
-import myPicture from "../images/foto.png";
+// import myPicture from "../images/foto.png";
 import "./About.css";
 
 export default function About() {
