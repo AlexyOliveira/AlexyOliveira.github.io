@@ -30,7 +30,7 @@
   animation: rotate 10s linear infinite;
   height: 35px;
   margin-left: 20px;
-  width: 45px;
+  width: 35px;
 }
 
 .square img {
@@ -62,5 +62,5 @@
 }
 
 .container-name h2{
-  font-size: 25px;
+ 
 }
