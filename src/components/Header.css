@@ -14,7 +14,7 @@
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 @keyframes rotate {
@@ -38,7 +38,7 @@
 }
 
 .header-nav {
-  background-color: rgb(37 37 37);
+  background-color: rgb(85, 82, 82);
 }
 
 .first-name {
@@ -62,8 +62,5 @@
 }
 
 .container-name h2{
-  font-size: 30px;
+  font-size: 25px;
 }
-
-
-/*  */
