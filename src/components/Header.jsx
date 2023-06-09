@@ -11,11 +11,11 @@ export default function Header() {
         <Container className="p-3">
           <Navbar.Brand href="#home">
             <div className="container-name">
-              <h2 className="first-name">Alexandre</h2>
-              <h2 className="second-name">Oliveira</h2>
               <span className="square">
                 <img src={programing} alt="programing" />
               </span>
+              <h2 className="first-name">Alexandre</h2>
+              <h2 className="second-name">Oliveira</h2> 
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

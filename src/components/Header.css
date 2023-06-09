@@ -12,6 +12,8 @@
   transition: 0.3s;
 }
 
+
+
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
@@ -30,7 +32,7 @@
 .square {
   animation: rotate 10s linear infinite;
   height: 35px;
-  margin-left: 20px;
+ 
   width: 35px;
 }
 
