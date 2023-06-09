@@ -11,20 +11,20 @@ export default function Header() {
         <Container className="p-3">
           <Navbar.Brand href="#home">
             <div className="container-name">
+              <h2 className="first-name">Alexandre</h2>
+              <h2 className="second-name">Oliveira</h2>
               <span className="square">
                 <img src={programing} alt="programing" />
               </span>
-              <h2 className="first-name">Alexandre</h2>
-              <h2 className="second-name">Oliveira</h2> 
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#about">Sobre</Nav.Link>
-              <Nav.Link href="#skills">Tech Stacks</Nav.Link>
-              <Nav.Link href="#projects">Projetos</Nav.Link>
-              <Nav.Link href="#contact">Contato</Nav.Link>
+              <Nav.Link href="#about" className="c">Sobre</Nav.Link>
+              <Nav.Link href="#skills" className="c">Tech Stacks</Nav.Link>
+              <Nav.Link href="#projects" className="c">Projetos</Nav.Link>
+              <Nav.Link href="#contact" className="c">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

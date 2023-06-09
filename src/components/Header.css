@@ -5,19 +5,17 @@
   width: 100%;
   z-index: 1;
 }
-.navbar a {
+.c {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.3s;
 }
 
-
-
-.navbar a:hover,
-.navbar a.active {
+.c:hover,
+.c.active {
   color: var(--main-color);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 @keyframes rotate {
@@ -32,7 +30,7 @@
 .square {
   animation: rotate 10s linear infinite;
   height: 35px;
- 
+  margin-left: 20px;
   width: 35px;
 }
 
