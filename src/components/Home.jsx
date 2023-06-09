@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import picture from "../images/imagem.png";
-// import Curriculum from "../images/Curriculum.pdf";
+import Curriculum from "../images/Curriculum.pdf";
 import "./Home.css";
 
 export default function Home() {
@@ -58,13 +58,9 @@ export default function Home() {
             <FaInstagram />
           </a>
         </div>
-
-        <p download type="button" className="btn-download">
-          Download CV (em breve)
-        </p>
-        {/* <a href={Curriculum} download type="button" className="btn-download">
-          Download CV (soon)
-        </a> */}
+         <a href={Curriculum} download type="button" className="btn-download">
+          Download CV
+        </a> 
       </div>
 
       <div className="home-img">

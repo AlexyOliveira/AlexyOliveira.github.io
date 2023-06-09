@@ -71,10 +71,12 @@ span {
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
+  text-decoration: none;
 }
 
 .btn-download:hover {
   box-shadow: none;
+  color: black;
 }
 
 /*  */
