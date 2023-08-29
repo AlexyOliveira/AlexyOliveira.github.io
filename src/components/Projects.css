@@ -12,19 +12,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: 1s;
   }
-
-  .item {
-    padding: 20px 60px;
-  }
-  .carousel {
-    width: 400px;
-  }
+  
   .cardStyle {
+    transition: 1s;
     margin: 20px;
     width: 25rem;
     color: black;
     font-size: 15px;
+  }
+
+  .cardStyle:hover {
+    width: 30rem;
+    
   }
 
   .heading {
@@ -37,8 +38,5 @@
   @media (max-width: 767.98px) {
     .projects-container {
       padding: 10px;
-    }
-    .item {
-      padding: 20px 60px;
     }
   }
