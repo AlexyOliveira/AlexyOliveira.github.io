@@ -17,7 +17,27 @@ export default function About() {
           <span>Desenvolvedor Web Full-Stack</span>
         </h3>
         <p>
-          "Olá, meu nome é <span className="change">Alexandre Oliveira</span> e
+          <span className="change">Nome:</span> Alexandre Oliveira <br />
+          <span className="change">Local de nascimento:</span> Içara, Santa
+          Catarina, Brasil <br />{" "}
+          <span className="change">Localização atual:</span> Litoral Norte do
+          Rio Grande do Sul, Brasil <br />
+          <br />
+          "Sou um entusiasta de tecnologia e tenho paixão pelo desenvolvimento
+          de aplicações. Já são 2 anos de projetos e estudos, 10 meses por conta
+          própria e 1 ano e meio de estudos intensos e bem produtivos na escola{" "}
+          <a target="_blank" href="https://www.betrybe.com/">
+            <strong>Trybe</strong>
+          </a>{" "}
+          , onde me formei como desenvolvedor web full stack. Lá, tive a
+          oportunidade de trabalhar em projetos individuais e em grupo,
+          desenvolvendo tecnologias populares do mercado e aprendendo
+          metodologias ágeis, além de aprimorar minhas habilidades sociais 🚀🚀.
+          Conhecimentos: Sou um desenvolvedor Full Stack com experiência em |
+          React.js | React-native | Java Script | Redux | Html | Css | jest/RTL
+          | TypeScripty | MySQL | Bootstrap | Node JS | Python. Atualmente
+          desenvolvendo apps com React-Native.
+          {/* "Olá, meu nome é <span className="change">Alexandre Oliveira</span> e
           sou <span className="change">brasileiro</span>. Nasci no município de
           Içara, em Santa Catarina, mas aos 5 anos de idade mudei-me para
           <span className="change"> Tramandaí</span>, uma bela cidade litorânea
@@ -44,7 +64,7 @@ export default function About() {
           para aplicar soluções inovadoras e criar experiências online
           impactantes. Estou empenhado em construir uma carreira de sucesso
           nessa indústria em constante evolução. Vamos juntos nessa jornada de
-          aprendizado e crescimento!" 🚀🚀
+          aprendizado e crescimento!" 🚀🚀 */}
         </p>
       </div>
     </section>
