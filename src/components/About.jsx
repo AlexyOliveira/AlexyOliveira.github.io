@@ -25,7 +25,7 @@ export default function About() {
           <br />
           "Sou um entusiasta de tecnologia e tenho paixão pelo desenvolvimento
           de aplicações. Já são 2 anos de projetos e estudos, 10 meses por conta
-          própria e 1 ano e meio de estudos intensos e bem produtivos na escola{" "}
+          própria e 1 ano e 2 meses de estudos intensos e bem produtivos na escola{" "}
           <a target="_blank" href="https://www.betrybe.com/">
             <strong>Trybe</strong>
           </a>{" "}
