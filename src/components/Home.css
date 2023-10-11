@@ -72,6 +72,7 @@ span {
   font-weight: 600;
   transition: 0.5s ease;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .btn-download:hover {
