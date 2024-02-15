@@ -9,9 +9,12 @@ export default function About() {
       </div> */}
 
       <div className="about-content">
-        <h2 className="heading">
+        <div className="adf">
+          <h2 className="heading">
           <span style={{ color: "white" }}>Sobre</span>{" "}<span>Mim</span>
         </h2>
+        </div>
+        
         <h3>
           <span>Desenvolvedor Web Full-Stack</span>
         </h3>
