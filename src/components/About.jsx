@@ -26,7 +26,9 @@ export default function About() {
           
 "Sou um apaixonado por tecnologia e um entusiasta incansável do desenvolvimento de aplicações inovadoras. Com mais de 2 anos de experiência em projetos desafiadores, sendo os últimos 10 meses dedicados a iniciativas independentes, e mais de 1 ano e 2 meses de formação intensiva na renomada escola Trybe, onde me tornei um desenvolvedor web full stack.
 
-Na Trybe, mergulhei em projetos estimulantes, tanto individuais quanto em equipe, trabalhando com tecnologias líderes de mercado. Durante esse período, adquiri conhecimento prático em metodologias ágeis, além de aprimorar minhas habilidades sociais, tornando-me não apenas um especialista técnico, mas também um colaborador eficaz em ambientes de equipe dinâmicos 🚀🚀.
+Na <a target="_blank" href="https://www.betrybe.com/">
+            <strong>Trybe</strong>
+          </a>{" "}, mergulhei em projetos estimulantes, tanto individuais quanto em equipe, trabalhando com tecnologias líderes de mercado. Durante esse período, adquiri conhecimento prático em metodologias ágeis, além de aprimorar minhas habilidades sociais, tornando-me não apenas um especialista técnico, mas também um colaborador eficaz em ambientes de equipe dinâmicos 🚀🚀.
 
 Minhas habilidades abrangem o desenvolvimento full stack, com expertise em tecnologias essenciais, como React.js, React Native, JavaScript, Redux, HTML, CSS, Jest/RTL, TypeScript, MySQL, Bootstrap, Node.js e Python. Atualmente, estou imerso no universo do desenvolvimento de aplicativos utilizando React Native, explorando os limites da criação de experiências mobile envolventes e eficientes.
 
