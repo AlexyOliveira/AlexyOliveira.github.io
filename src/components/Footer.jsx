@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer" id="footer">
       <footer>
         <div>&copy; Alexandre Oliveira - 2023</div>
-        <a href="https://www.instagram.com/ale_oliverr/" target="_blank">
+        <a href="https://www.instagram.com/ale_oliveir/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </a>
         <a
