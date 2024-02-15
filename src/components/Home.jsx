@@ -52,7 +52,7 @@ export default function Home() {
             <FaGithub />
           </a>
           <a
-            href="https://www.instagram.com/ale_oliverr/"
+            href="https://www.instagram.com/ale_oliveir/"
             className="social-icons"
             target="_blank"
             rel="noreferrer"
