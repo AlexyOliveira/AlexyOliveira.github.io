@@ -40,7 +40,7 @@ span {
 }
 
 .home-img {
-  padding: 20px;
+  padding: 30px;
 }
 
 .social-media a {
@@ -85,9 +85,19 @@ span {
   color: black;
 }
 
+.h3-divdois {
+  display: none;
+}
+
 /*  */
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
+  }
+  .h3-divum {
+    display: none;
+  }
+  .h3-divdois {
+    display: block;
   }
 }

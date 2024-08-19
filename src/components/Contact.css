@@ -30,6 +30,7 @@
   margin: 20px;
   width: 320px;
   display: flex;
+  border-radius: 7px;
 }
 
 .whatsapp-button {

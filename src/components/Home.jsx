@@ -31,13 +31,25 @@ export default function Home() {
       <div className="home-content">
         <h3 style={{color: "black"}}>Olá, eu sou</h3>
         <h1>Alexandre Oliveira</h1>
-        <h3  style={{color: "black"}}>
+        <div className="h3-divum">
+          <h3  style={{color: "black"}}>
           Desenvolvedor<span className="dev-full"> Web Full-Stack</span><br />
           <span className="dev-full">Criador de landing pages sites</span><br />
           <span className="dev-full"> e aplicativos.</span>
           
           
         </h3>
+        </div>
+        <div className="h3-divdois">
+          <h3  style={{color: "black"}}>
+          Desenvolvedor<span className="dev-full"> Web Full-Stack</span>
+          <span className="dev-full">Criador de landing pages sites</span>
+          <span className="dev-full"> e aplicativos.</span>
+          
+          
+        </h3>
+        </div>
+        
         <div className="social-media">
           <a
             href="https://www.linkedin.com/in/alexandre-oliveira-devweb/"
