@@ -39,6 +39,10 @@ span {
   width: 30vw;
 }
 
+.home-img {
+  padding: 20px;
+}
+
 .social-media a {
   display: inline-flex;
   justify-content: center;

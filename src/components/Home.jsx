@@ -32,7 +32,11 @@ export default function Home() {
         <h3 style={{color: "black"}}>Olá, eu sou</h3>
         <h1>Alexandre Oliveira</h1>
         <h3  style={{color: "black"}}>
-          Sou <span className="dev-full">Desenvolvedor Web Full-Stack</span>
+          Desenvolvedor<span className="dev-full"> Web Full-Stack</span><br />
+          <span className="dev-full">Criador de landing pages sites</span><br />
+          <span className="dev-full"> e aplicativos.</span>
+          
+          
         </h3>
         <div className="social-media">
           <a

@@ -6,6 +6,13 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <section className="contact" id="contact">
+       <a
+        href="https://wa.me/5551992947917"
+        class="whatsapp-button"
+        target="_blank"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
       <h2 className="heading">
         Contat<span>o</span>
       </h2>
