@@ -43,7 +43,7 @@ export default function Home() {
         <div className="h3-divdois">
           <h3  style={{color: "black"}}>
           Desenvolvedor<span className="dev-full"> Web Full-Stack</span>
-          <span className="dev-full">Criador de landing pages sites</span>
+          <span className="dev-full"> Criador de landing pages sites</span>
           <span className="dev-full"> e aplicativos.</span>
           
           
